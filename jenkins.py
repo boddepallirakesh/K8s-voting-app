@@ -1,3 +1,8 @@
-# Create an empty file or overwrite the existing one
-with open('newfile.txt', 'w') as file:
-    pass  # This creates an empty file
+# Working with lists
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")  # Adding an item
+print(f"Updated list: {fruits}")
+
+# Iterating over a list
+for fruit in fruits:
+    print(f"I love {fruit}")
